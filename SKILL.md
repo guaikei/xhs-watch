@@ -6,6 +6,11 @@ name: xhs-watch
 description: "小红薯舆情监控数据源（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.3
+display_name: "小红薯舆情监控｜评论情绪·负面预警·品牌提及·口碑风向"
+display_name_en: "Xiaohongshu Watch"
+description_zh: "小红书公开舆情数据只读技能：关键词搜笔记找话题与爆款、单篇笔记详情、评论抓取供AI归类情绪、博主作品列表与粉丝/获赞/收藏数据；按量最多 1 万条，包月搜索/作品/评论分别最多 40/30/20，超限返回 PLAN_LIMIT；全部以结构化 JSON 输出，不登录、不发布、不点赞、不评论、不关注，适用于评论情绪分析、负面预警、品牌提及追踪与口碑风向判断。"
+description_en: "Read-only Xiaohongshu public sentiment data skill: keyword search for notes and trending topics, single note detail, comment scraping for AI sentiment classification, creator post lists, and follower/like/collection stats; up to 10,000 rows per pay-as-you-go call, with monthly caps of 40 searches / 30 posts / 20 comment queries, returning PLAN_LIMIT when exceeded; all returned as structured JSON, with no login and no posting, liking, commenting or following; for comment sentiment analysis, negative-risk alerting, brand mention tracking and reputation trend monitoring."
+author: "新郑市怪奇信息技术工作室"
 category: 数据分析
 homepage: https://www.guaikei.com
 metadata:
